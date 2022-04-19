@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: currentColor;
+}
+
+html {
+    background-color: #ccc;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+}
+
+section {
+    background-color: #ccc;
+}
+
+nav {
+    height: 20vh;
+    background-color: #039BE5;
+    position: sticky;
+
+}
+
+footer {
+    height: 5vh;
+    background-color: #039BE5;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+main {
+    background-color: #ccc;
+    min-height: 75vh;
+
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+h3 {
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    margin : 24px;
+    font-size: 1.5em;
+}
+
+ul li:first-of-type{
+    font-size: 2em;
+
+}
+
+/* nav {
+    background-color: #f2f2f2;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+} */
+
+#searchbar {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#collection ,#collection2 {
+    width: 100%;
+    margin-top: 1px;
+    background-color: white;
+    z-index: 999;
+    border-radius: 4px;
+}
+
+form {
+    width: 100%;
+}
+
+form input {
+    width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#collection p, #collection2 p   {
+    text-align: left;
+    transition-duration: 0.4s;
+
+}
+p::first-letter {
+    text-transform:capitalize;
+}
+
+#collection p:hover, #collection2 p:hover {
+    color: white;
+    background-color: #039BE5;
+    cursor: pointer;
+}
+
+.invisible {
+    display: none;
+}
+
+div.ville {
+    border: 1px black solid;
+    height: 10vh;
+    transition-duration: 0.4s;
+
+}
+
+div.ville:hover {
+    background-color: #039BE5;
+    color: white;
+}
+
+button {
+    background-color: #039BE5; 
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px auto ;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    color: black; 
+    border: 2px solid #039BE5;
+    width: 80%;
+  }
+
+button:hover {
+    background-color: #039BE5;
+    color: white;
+}
+
+#map { 
+      height: 180px; 
+      width: 180px;
+}
+
+main div.fiche {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100vw;
+    height: 75vh;
+    background-color: white;
+}
+
+main div.info {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    gap: 30%;
+    width: 100%;
+    height: 20vh;
+    
+}
+
+
+
+
+
