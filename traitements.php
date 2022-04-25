@@ -17,3 +17,4 @@ $stmt->execute(["%".$_GET['name']."%",$_GET['name']."%"]);
 $resultat['contenu'] = $stmt->fetchAll();
 echo json_encode($resultat);
 // echo json_encode($_GET['name']) ;
+
